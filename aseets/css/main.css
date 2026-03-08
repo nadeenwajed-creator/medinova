@@ -57,3 +57,31 @@ body{
     color: #848E9F !important;
 }
 
+
+/*hero*/
+.hero-header {
+    background: url(../img/hero.jpg) top right ;
+    background-size: cover;
+}
+
+.border-white-light{
+border-color: rgba(255,255,255,.3) !important;
+}
+
+.bg-primary {
+    background-color: #13C5DD !important;
+}
+
+.btn {
+    font-weight: 600;
+    transition: .5s;
+}
+
+.btn:hover {
+    box-shadow: 0 8px 6px -6px #555555;
+    transition: 0.3s ease;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+}
