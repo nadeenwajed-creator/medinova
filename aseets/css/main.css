@@ -52,3 +52,8 @@ body{
 .navbar-nav .nav-link.active::before{
     width: 100%;
 }
+
+.text-body {
+    color: #848E9F !important;
+}
+
