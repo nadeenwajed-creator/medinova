@@ -14,6 +14,10 @@ body{
     color: var(--primary)!important;
 }
 
+.text-dark{
+    color: var(--dark)!important;
+}
+
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
     color: var(--primary);
@@ -84,4 +88,20 @@ border-color: rgba(255,255,255,.3) !important;
 
 .btn-primary {
     color: #FFFFFF;
+}
+
+.about-img{
+min-height:500px;
+}
+
+.about-imgw{
+position:relative;
+height:100%;
+}
+
+.about-img-image{
+position:absolute;
+width:100%;
+height:100%;
+object-fit:cover;
 }
