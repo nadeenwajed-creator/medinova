@@ -19,6 +19,14 @@ body{
     background-color: #EFF5F9 !important;
 }
 
+.bg-dark {
+    background-color: #1D2A4D !important;
+}
+
+.border-secondary {
+    border-color: #354F8E !important;
+}
+
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
     color: var(--primary);
@@ -255,6 +263,8 @@ height: 60px;
 max-width: 500px;
 }
 
-a:hover {
+.p-4 a:hover {
     color: var(--primary);
 }
+
+
