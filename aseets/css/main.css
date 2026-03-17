@@ -267,4 +267,60 @@ max-width: 500px;
     color: var(--primary);
 }
 
+/*Contact section in contact page */
+.contact-title {
+    max-width: 500px;
+}
 
+.contact-card {
+    height: 200px;
+}
+
+.contact-icon {
+    width: 100px;
+    height: 70px;
+    transform: rotate(-15deg);
+}
+
+.icon-fix {
+    transform: rotate(15deg);
+}
+
+.map-height {
+    height: 500px;
+}
+
+.map-frame {
+    border: 0;
+}
+
+.form-position {
+    margin-top: -200px;
+    z-index: 1;
+}
+
+.contact-input {
+    height: 55px;
+}
+/*responsive*/
+@media (max-width: 768px) {
+
+    .form-position {
+        margin-top: 0;
+    }
+
+    .form-position .bg-white {
+        margin: 15px !important;
+        padding: 25px !important;
+    }
+
+    .contact-input {
+        height: auto;
+        padding: 12px;
+    }
+
+    textarea.contact-input {
+        height: 120px;
+    }
+
+}
