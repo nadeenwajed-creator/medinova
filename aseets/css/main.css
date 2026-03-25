@@ -364,3 +364,18 @@ max-width: 500px;
 .name-link:hover {
   filter: brightness(85%);
 }
+
+@media (max-width: 576px) {
+
+  .form-control {
+    font-size: 20px;
+  }
+
+  .form-control::placeholder {
+    font-size: 20px;
+  }
+
+}
+.form-control {
+  text-align: left !important;
+}
