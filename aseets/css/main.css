@@ -324,3 +324,43 @@ max-width: 500px;
     }
 
 }
+
+.blog-main-img {
+  object-fit: cover;
+}
+
+.author-img {
+  width: 40px;
+  height: 40px;
+}
+
+.comment-img {
+  width: 45px;
+  height: 45px;
+}
+
+.form-input {
+  height: 55px;
+}
+
+.recent-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.plain-box {
+  padding: 30px;
+}
+
+.blog-detail-link:hover {
+    color: var(--primary);
+}
+
+.name-link {
+  transition: filter 0.1s ease;
+}
+
+.name-link:hover {
+  filter: brightness(85%);
+}
