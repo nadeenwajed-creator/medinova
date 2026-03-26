@@ -379,3 +379,22 @@ max-width: 500px;
 .form-control {
   text-align: left !important;
 }
+
+/*Medical Packages*/
+.section-header {
+    max-width: 500px;
+}
+
+.price-overlay {
+    background: rgba(29, 42, 77, 0.8);
+}
+
+.price-currency {
+    font-size: 22px;
+    line-height: 45px;
+}
+
+.price-period {
+    font-size: 16px;
+    line-height: 40px;
+}
